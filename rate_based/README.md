@@ -25,7 +25,7 @@
 */Evaluation*
 
 ## Requirements
-- Matlab or Ocatave
+- Matlab or Octave
 - The Matlab interface to liblinear or libsvm
 - The recorded network responses.
 - The label files for the datasets.
