@@ -1,5 +1,5 @@
 # NETWORK TRAINING
-*/NetworkModel*
+*/Model*
 
 ## Requirements
 - Python 3 (3.6)
