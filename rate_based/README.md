@@ -10,12 +10,12 @@
 - "learn" Required to start the learning routine.
 - "eval" Required to start evaluation routines.
 - "load path_to_file" Initializes the network with a save file.
-- "MNISTd" Records the responses on the MNIST dataset, regarding the delays.
-- "EMNISTd" Records the responses on the balanced EMNIST dataset, regarding the delays.
-- "SVHNd" Records the responses on the SVHN dataset, regarding the delays.
-- "CIFAR10d" Records the responses on the CIFAR10 dataset, regarding the delays.
-- "ETH80d" Records the responses on the ETH80 dataset, regarding the delays.
-- "CalTech101Subsetd" Records the responses on the subset of the CalTech101 dataset, regarding the delays.
+- "MNISTd" Records the responses on the MNIST dataset, considering delays.
+- "EMNISTd" Records the responses on the balanced EMNIST dataset, considering delays.
+- "SVHNd" Records the responses on the SVHN dataset, considering delays.
+- "CIFAR10d" Records the responses on the CIFAR10 dataset, considering delays.
+- "ETH80d" Records the responses on the ETH80 dataset, considering delays.
+- "CalTech101Subsetd" Records the responses on the subset of the CalTech101 dataset, considering delays.
 
 ## Example
 *python3 main_Network.py -j 8 learn eval MNISTd EMNISTd SVHNd CIFAR10d ETH80d CalTech101Subsetd*
