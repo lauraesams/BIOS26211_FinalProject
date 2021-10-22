@@ -11,7 +11,7 @@ Spike based neural network - Evaluation
 - scipy >= 1.5
 - scikit-learn >= 0.24
 
-# Measure Accuracy
+## Measure Accuracy
 
 1. Put all weight-files to the **network_data** directory (*V1weight_N.txt*, *InhibW_N.txt*, *INtoV1_N.txt*, *INLat_N.txt*, *V1toIN_N.txt*, *V2weight_N.txt*, *V1toIN2_N.txt*, *V2toIN2_N.txt*, *IN2toV2_N.txt*,*IN2Lat_N.txt*) and remove the number from the name of each file (for example: rename *V1weight_N.txt* to *V1weight.txt*).
 
