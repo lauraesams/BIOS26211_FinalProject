@@ -1,7 +1,7 @@
 Spike based neural network
 ==========================
 
-# Structure
+## Structure
 - **Evaluation**
     - **Caltech_f_mb**
         - **network_data**: Weight files of the spike based neural network
