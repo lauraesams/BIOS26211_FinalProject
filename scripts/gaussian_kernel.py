@@ -41,8 +41,8 @@ def gaussian_kernel(source_directory, destination_directory, blur_size=(7, 7)):
         # Save the blurred image
         cv2.imwrite(destination_file_path, blurred_image)
 
-# Apply Gaussian Blur to images in 'test_gray' and save in 'test_gray_gaussian'
+# EXAMPLE: apply Gaussian Kernel to images in 'test_gray' and save in 'test_gray_gaussian'
 gaussian_kernel('test_gray', 'test_gray_gaussian')
 
-# Apply Gaussian Blur to images in 'train_gray' and save in 'train_gray_gaussian'
+# EXAMPLE: apply Gaussian Kernel to images in 'train_gray' and save in 'train_gray_gaussian'
 gaussian_kernel('train_gray', 'train_gray_gaussian')
